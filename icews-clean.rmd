@@ -131,10 +131,10 @@ head(counts)
 
 COW code 0 is international organizations (IOs), so we can get a sense of how many times IOs are interacting with themselves and other countries in the data from the top of this table. And now that we have the count data we can start doing fun stuff. Over [here](https://github.com/brendancooley/icews-explorer) I've built an app that allows users to scale subsets of the data, following [Lowe](http://dl.conjugateprior.org/preprints/mmfed.pdf).^[This is still in-progress, I've been meaning to go back and update it.] The procedures implemented there allow us to recover what can be thought of as a conflict-cooperation "score" for each dyad-year, based on the underlying count data.
 
-## R Packages
+### R Packages
 
 ```{r, echo=FALSE, results='asis'}
 bib
 ```
 
-## References
+### References
